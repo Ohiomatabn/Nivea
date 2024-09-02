@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Poppins';
+    font-weight: 400;
+    src: url('../Fonts/Poppins-Regular.ttf') format('ttf');
+}
+@font-face {
+    font-family: 'Poppins';
+    font-weight: 700;
+    src: url('../Fonts/Poppins-Bold.ttf') format('ttf');
+}
+@font-face {
+    font-family: 'Poppins';
+    font-weight: 900;
+    src: url('../Fonts/Poppins-Black.ttf') format('ttf');
+}
+@font-face {
+    font-family: 'Lobster';
+    font-weight: 400;
+    src: url('../Fonts/lobster-regular-webfont.woff') format('woff');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand{
+    font-family: 'Lobster';
+}
+
+body{
+    font-family: 'Poppins';
+    font-size: 16px;
+}
